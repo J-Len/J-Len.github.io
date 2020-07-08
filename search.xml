@@ -12,4 +12,22 @@
         <tag>欢迎页面</tag>
       </tags>
   </entry>
+  <entry>
+    <title>招银提前批面经</title>
+    <url>/2020/07/08/%E6%8B%9B%E9%93%B6%E6%8F%90%E5%89%8D%E6%89%B9%E9%9D%A2%E7%BB%8F/</url>
+    <content><![CDATA[<h1 id="杭州面经1"><a href="#杭州面经1" class="headerlink" title="杭州面经1"></a>杭州面经1</h1><p>[]: <a href="https://www.nowcoder.com/discuss/448514?type=all&amp;order=time&amp;pos=&amp;page=0&amp;channel=666&amp;source_id=search_all" target="_blank" rel="noopener">https://www.nowcoder.com/discuss/448514?type=all&amp;order=time&amp;pos=&amp;page=0&amp;channel=666&amp;source_id=search_all</a></p>
+<ol>
+<li>基本问题</li>
+<li>full gc触发条件（要说多个）</li>
+<li>redis多路复用机制简单介绍</li>
+<li>redis实现消息队列</li>
+<li>redis持久化</li>
+<li>mysql 可重复读怎么解决幻读</li>
+<li>算法题：只有一个数出现一次，其余都出现两次</li>
+</ol>
+]]></content>
+      <categories>
+        <category>面经</category>
+      </categories>
+  </entry>
 </search>
