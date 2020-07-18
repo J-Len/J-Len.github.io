@@ -79,10 +79,14 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="J Len">
-<meta property="og:url" content="https://j-len.github.io/tags/%E6%AC%A2%E8%BF%8E%E9%A1%B5%E9%9D%A2/index.html">
+<meta name="description" content="title: 贪心算法 date: 2020-07-18 14:58:32categories: LeetCode 10 贪心算法10.1 剪绳子 II （Medium）面试题14- II面试题14- II. 剪绳子 II 给你一根长度为 n 的绳子，请把绳子剪成整数长度的 m 段（m、n都是整数，n&gt;1并且m&gt;1），每段绳子的长度记为 k[0],k[1]...k[m] 。请问 k[0">
+<meta property="og:type" content="article">
+<meta property="og:title" content="贪心">
+<meta property="og:url" content="https://j-len.github.io/2020/07/18/%E8%B4%AA%E5%BF%83/index.html">
 <meta property="og:site_name" content="J Len">
+<meta property="og:description" content="title: 贪心算法 date: 2020-07-18 14:58:32categories: LeetCode 10 贪心算法10.1 剪绳子 II （Medium）面试题14- II面试题14- II. 剪绳子 II 给你一根长度为 n 的绳子，请把绳子剪成整数长度的 m 段（m、n都是整数，n&gt;1并且m&gt;1），每段绳子的长度记为 k[0],k[1]...k[m] 。请问 k[0">
+<meta property="article:published_time" content="2020-07-18T10:28:02.215Z">
+<meta property="article:modified_time" content="2020-07-18T11:42:59.109Z">
 <meta property="article:author" content="J Len">
 <meta name="twitter:card" content="summary">
 
@@ -114,13 +118,13 @@
 
 
 
-  <link rel="canonical" href="https://j-len.github.io/tags/欢迎页面/"/>
+  <link rel="canonical" href="https://j-len.github.io/2020/07/18/贪心/"/>
 
 
 
 
 
-  <title>标签: 欢迎页面 | J Len</title>
+  <title>贪心 | J Len</title>
   
 
 
@@ -139,7 +143,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -267,54 +271,196 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>欢迎页面<small>标签</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://j-len.github.io/2020/07/18/%E8%B4%AA%E5%BF%83/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="J Len">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="J Len">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2020/07/07/hello-world/" itemprop="url">
-              
-                <span itemprop="name">欢迎来到我的博客</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">贪心</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2020-07-07T20:22:08+08:00"
-              content="2020-07-07" >
-          07-07
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-07-18T18:28:02+08:00">
+                2020-07-18
+              </time>
+            
 
-    </header>
-  </article>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>title: 贪心算法</p>
+<p>date: 2020-07-18 14:58:32<br>categories: LeetCode</p>
+<h1 id="10-贪心算法"><a href="#10-贪心算法" class="headerlink" title="10 贪心算法"></a>10 贪心算法</h1><h2 id="10-1-剪绳子-II-（Medium）面试题14-II"><a href="#10-1-剪绳子-II-（Medium）面试题14-II" class="headerlink" title="10.1 剪绳子 II （Medium）面试题14- II"></a>10.1 剪绳子 II （Medium）面试题14- II</h2><p><a href="https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/" target="_blank" rel="noopener">面试题14- II. 剪绳子 II</a></p>
+<p>给你一根长度为 <code>n</code> 的绳子，请把绳子剪成整数长度的 <code>m</code> 段（m、n都是整数，n&gt;1并且m&gt;1），每段绳子的长度记为 <code>k[0],k[1]...k[m]</code> 。请问 <code>k[0]*k[1]*...*k[m]</code> 可能的最大乘积是多少？例如，当绳子的长度是8时，我们把它剪成长度分别为2、3、3的三段，此时得到的最大乘积是18。</p>
+<p>答案需要取模 1e9+7（1000000007），如计算初始结果为：1000000008，请返回 1。</p>
+<p><strong>示例 1：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">输入: 2</span><br><span class="line">输出: 1</span><br><span class="line">解释: 2 &#x3D; 1 + 1, 1 × 1 &#x3D; 1</span><br></pre></td></tr></table></figure>
+
+<p><strong>示例 2:</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">输入: 10</span><br><span class="line">输出: 36</span><br><span class="line">解释: 10 &#x3D; 3 + 3 + 4, 3 × 3 × 4 &#x3D; 36</span><br></pre></td></tr></table></figure>
+
+<p><strong>提示：</strong></p>
+<ul>
+<li><code>2 &lt;= n &lt;= 1000</code></li>
+</ul>
+<p><strong>注意</strong></p>
+<p>这一题和 <code>Leetcode-343</code>  和 <code>面试题14-I</code> 不同之处在于大数运算取模。使得动态规划出错。</p>
+<p><a href="https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/solution/javatan-xin-si-lu-jiang-jie-by-henrylee4/" target="_blank" rel="noopener">参考链接</a></p>
+<p><strong>DP的缺陷</strong></p>
+<p>这个题和剪绳子I一样的描述，就是数据范围变大了。<code>剪绳子</code>可以用动态规划或者贪心做，这道题对于使用DP难度就增大了一些，因为数据范围变得比较大时，long已经不足以去存储中间结果的状态，但是由于DP做法是枚举各种剪的情况然后取最大值，因此只能通过使用<code>BigInteger</code>的方法去做，这点评论区已经有人给出了<a href="https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/solution/java-dong-tai-gui-hua-ji-bai-100-he-jian-sheng-zi-/" target="_blank" rel="noopener">解答</a>。</p>
+<p>那么这个题范围变大的本意是想让我们使用贪心算法能更好的求解(毕竟 <code>BigInteger</code>使用起来麻烦，贪心没有数据溢出的问题，它是找当下的最优解，不需要比较，<strong>中间结果可以直接取模</strong>)。</p>
+<p><strong>贪心</strong></p>
+<p>我们首先考虑对于一段长n的绳子，我们可以切出的结果包含什么？</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">1&#96;会包含吗？ 不会，因为&#96;1 * (k - 1) &lt; k&#96;, 只要把1和任何一个其他的片段组合在一起就有个更大的值</span><br><span class="line">&#96;2&#96;可以</span><br><span class="line">&#96;3&#96;可以</span><br><span class="line">&#96;4&#96;可以吗？ 它拆成两个2的效果和本身一样，因此也不考虑</span><br><span class="line">&#96;5&#96;以上可以吗？ 不可以，这些绳子必须拆，因为总有一种拆法比不拆更优，比如拆成 &#96;k &#x2F; 2&#96; 和 &#96;k - k &#x2F; 2</span><br></pre></td></tr></table></figure>
+
+<p>综上， 最后的结果只包含 <code>2</code> 和 <code>3</code> （当然当总长度为 <code>2</code> 和 <code>3</code> 时单独处理）， 那么很显然 <code>n &gt;= 5时， 3*S(n - 3) &gt;= 2 * S(n - 2)</code> （要证明优先选择 <code>3</code> ，应该证明：存在 n0 ,当 n&gt;n0 时，满足$3<em>S(n-3)&gt;=2</em>S(n-2)$, 其中 <code>S(n)</code> 表示规模为 <code>n</code> 的问题，可以用数学归纳法证明），因此我们优先拆成 <code>3</code>，最后剩余的拆成 <code>2</code>。最后的结果一定是由若干个 <code>3</code> 和 <em>1或2个</em><code>2</code>组成。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">cuttingRope</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(n&lt;<span class="number">4</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> n-<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(n == <span class="number">4</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">4</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span> mod = (<span class="keyword">int</span>)<span class="number">1e9</span> + <span class="number">7</span>;</span><br><span class="line">        <span class="keyword">long</span> res = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">while</span>(n &gt; <span class="number">4</span>) &#123;</span><br><span class="line">            res *= <span class="number">3</span>;</span><br><span class="line">            res %= mod;</span><br><span class="line">            n -= <span class="number">3</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">// 跳出循环时 n可能为4,3,2</span></span><br><span class="line">        <span class="keyword">return</span> (<span class="keyword">int</span>)(res * n % mod);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p><strong>错误代码</strong></p>
+<p>取模这块出问题</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">cuttingRope</span><span class="params">(<span class="keyword">int</span> n)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(n&lt;<span class="number">4</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> n-<span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(n == <span class="number">4</span>)&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="number">4</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span> mod = (<span class="keyword">int</span>)<span class="number">1e9</span> + <span class="number">7</span>;</span><br><span class="line">        <span class="keyword">int</span> res = <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">while</span>(n &gt; <span class="number">4</span>) &#123;</span><br><span class="line">            res *= <span class="number">3</span>;</span><br><span class="line">            res %= mod;</span><br><span class="line">            n -= <span class="number">3</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">// 跳出循环时 n可能为4,3,2</span></span><br><span class="line">        <span class="keyword">return</span> (<span class="keyword">int</span>)(((<span class="keyword">long</span>)res * n) % mod);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    J Len
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://j-len.github.io/2020/07/18/%E8%B4%AA%E5%BF%83/" title="贪心">https://j-len.github.io/2020/07/18/%E8%B4%AA%E5%BF%83/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2020/07/18/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/" rel="next" title="滑动窗口">
+                <i class="fa fa-chevron-left"></i> 滑动窗口
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2020/07/18/%E6%8E%92%E5%BA%8F/" rel="prev" title="排序">
+                排序 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -322,6 +468,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -342,8 +492,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -419,6 +578,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#10-贪心算法"><span class="nav-number">1.</span> <span class="nav-text">10 贪心算法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#10-1-剪绳子-II-（Medium）面试题14-II"><span class="nav-number">1.1.</span> <span class="nav-text">10.1 剪绳子 II （Medium）面试题14- II</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -553,6 +728,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
